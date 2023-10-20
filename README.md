@@ -1,5 +1,8 @@
+#Use
 
-# Already these npm packages are installed in template
+download as zip->rename folder name -> npm i->npm start
+
+# Note-Already these npm packages are installed in template so not req to install separately
 react-router-dom,mui,mui icon,react-icon
 
 #Vs terminal code-

@@ -4,11 +4,17 @@
   margin-left: 0px;
 }
 /* Link component of router */
-
+.link_comp {
+  color: rgb(82, 116, 185);
+}
 .link_comp:hover {
   text-decoration: none;
 }
-/* -----------------------------------------------------------Custom scrollbar-------------------------------------------------------- */
+/* remove autofill background in mui form */
+/* input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px white inset;
+} */
+/* -----------------------------------------------------------Custom scrollbar--------------------------------------------------------------- */
 /* width */
 ::-webkit-scrollbar {
   width: 6px;
@@ -28,36 +34,13 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
-/* ---------------------------------------------------------flex space btw----------------------------------------------------------- */
-.flexSpaceBtw {
-  display: flex;
-  justify-content: space-between;
-}
-/* --------------------------------------------------------------mui icon---------------------------------------------------------- */
+/* _______________________________________________________________mui icon__________________________________________________________________ */
+/*
 .muiIcon:focus {
   outline: none;
 }
-/* ------------------------------------------------------------Theme color_______________________________________________________ */
-.lightTheme {
-  --textColor: rgba(0, 0, 0, 1);
-  --bgColor: rgba(255, 255, 255, 1);
-  --bgHamburgerMenuIcon: transparent;
-}
-.darkTheme {
-  --textColor: rgba(255, 255, 255, 1);
-  --bgColor: rgba(0, 0, 0, 1);
-  --bgHamburgerMenuIcon: white;
-}
-/* ______________________________________________bg image_________________________________________________________________ */
-#app {
-  background: url("assets/bgImage.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  min-height: 100vh;
-}
-
-.img-fluid {
-  max-width: 75%;
-  height: auto;
+*/
+.flexSpaceBtw{
+  display: flex;
+  justify-content: space-between;
 }

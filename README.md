@@ -1,7 +1,9 @@
 
 # Already these npm packages are installed in template
 react-router-dom,mui,mui icon,react-icon
+
 #Vs terminal code-
+
 npm i react-router-dom @mui/material @emotion/react @emotion/styled @mui/icons-material @mui/material @emotion/styled @emotion/react react-icons
 
 

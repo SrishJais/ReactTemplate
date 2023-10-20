@@ -1,3 +1,10 @@
+
+# Already these npm packages are installed in template
+react-router-dom,mui,mui icon,react-icon
+#Vs terminal code-
+npm i react-router-dom @mui/material @emotion/react @emotion/styled @mui/icons-material @mui/material @emotion/styled @emotion/react react-icons
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

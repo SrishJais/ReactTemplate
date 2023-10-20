@@ -2,10 +2,9 @@ import "./App.css";
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import PageNotFound from "./pages/PageNotFound ";
+import PageNotFound from "./pages/PageNotFound";
 
 function App() {
-
   return (
     <div>
       <Routes>
@@ -18,3 +17,4 @@ function App() {
 }
 
 export default App;
+
